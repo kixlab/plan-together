@@ -1,0 +1,339 @@
+1
+00:00:03,680 --> 00:00:09,358
+Domain experts often collaborate with AI experts 
+to realize their AI application ideas.
+
+2
+00:00:09,358 --> 00:00:13,727
+These client-AI expert collaborations have become increasingly widespread.
+
+3
+00:00:13,727 --> 00:00:22,266
+Client-AI expert collaboration begins with the client, who outlines their needs, expectations, and available resources through pre-collaboration planning.
+
+4
+00:00:22,266 --> 00:00:25,920
+The pre-collaboration plan forms the basis for the discussion with
+
+5
+00:00:25,920 --> 00:00:31,914
+AI experts during which the stakeholders 
+collaboratively iterate the plan into a concrete and actionable one.
+
+6
+00:00:31,914 --> 00:00:37,445
+The experience during this iteration heavily depends on the quality of the pre-collaboration plan.
+
+7
+00:00:37,445 --> 00:00:43,168
+But because the client often lacks knowledge 
+about AI and about the information needs of the AI expert
+
+8
+00:00:43,168 --> 00:00:47,780
+coming up with a well-defined pre-collaboration plan 
+is often challenging for the client.
+
+9
+00:00:47,780 --> 00:00:53,249
+It can be mentally taxing and can even lead to misinterpretation of intents.
+
+10
+00:00:53,249 --> 00:00:59,200
+To address this issue, we introduced PlanTogether, 
+a system that provides guidance tailored to
+
+11
+00:00:59,200 --> 00:01:02,065
+each client as they outline a pre-collaboration plan.
+
+12
+00:01:02,065 --> 00:01:06,876
+For an illustration of how the system can aid a client 
+during pre-collaboration planning
+
+13
+00:01:06,876 --> 00:01:10,160
+let's imagine Sarah, a manager at a used car dealership
+
+14
+00:01:10,160 --> 00:01:13,294
+who wants to avoid overpaying when purchasing used cars.
+
+15
+00:01:13,294 --> 00:01:16,499
+She decides to hire an AI expert to solve her problem
+
+16
+00:01:16,499 --> 00:01:23,206
+and uses PlanTogether to develop and concretize 
+her AI application idea before entering discussions with AI expert.
+
+17
+00:01:23,206 --> 00:01:27,518
+Sarah opens up PlanTogether and starts with the ‘Project Objective’ section.
+
+18
+00:01:27,518 --> 00:01:31,393
+She notices the overview panel on top, which starts empty.
+
+19
+00:01:31,393 --> 00:01:39,588
+The system first asks her about ‘Task Performed by AI Applications: 
+“Please explain the task the AI application needs to perform.”
+
+20
+00:01:39,588 --> 00:01:44,050
+But she finds out she cannot answer the 
+question without any tips and suggestions
+
+21
+00:01:44,050 --> 00:01:48,461
+so she looks at the questions that can help her with 
+this question and moves to 'End Goal'.
+
+22
+00:01:48,461 --> 00:01:53,706
+Sarah now sees the question “Describe the end goal of your AI application.”
+
+23
+00:01:53,706 --> 00:01:59,994
+For this question, she types in “Make better decisions on used car purchases.”
+
+24
+00:01:59,994 --> 00:02:05,157
+Afterward, Sarah wants to confirm 
+whether her answer meets the intentions of the question.
+
+25
+00:02:05,157 --> 00:02:13,843
+Sarah clicks on the AI chatbot and asks, “Would my answer for End Goal be helpful for AI experts in charge of AI application development?”
+
+26
+00:02:13,843 --> 00:02:20,204
+The chatbot responds, 
+“Instead of simply stating ‘Make a better decision on the used car purchases,’
+
+27
+00:02:20,204 --> 00:02:26,891
+clarify what the better decision indicates to suggest 
+how the AI application can improve the decision making.”
+
+28
+00:02:26,891 --> 00:02:31,045
+Based on the response, Sarah modifies her answer to
+
+29
+00:02:31,045 --> 00:02:35,091
+“Avoid overpaying when purchasing used cars from their previous owners.”
+
+30
+00:02:35,091 --> 00:02:38,505
+Then, she clicks on “Save & Continue” to move on.
+
+31
+00:02:38,505 --> 00:02:43,477
+Sarah eventually returns to the earlier question about 
+'Task Performed by AI Application'.
+
+32
+00:02:43,477 --> 00:02:47,271
+This time, she sees the tip for answering the question
+
+33
+00:02:47,271 --> 00:02:54,937
+“Focus on how the AI model will enhance decision-making 
+in used car purchases by evaluating price accuracy and negotiation outcomes.”
+
+34
+00:02:54,937 --> 00:03:00,000
+with a blue highlight on the phrase: 
+“enhance decision-making in used car purchases.”
+
+35
+00:03:00,000 --> 00:03:06,158
+Hovering over the phrase, she sees that this tip draws information from the previously answered ‘End Goal’
+
+36
+00:03:06,158 --> 00:03:09,733
+telling her the relevance of her previous answer to that question.
+
+37
+00:03:09,733 --> 00:03:15,443
+She clicks on the downward arrow button 
+and obtains answer suggestions tailored to the current plan.
+
+38
+00:03:15,443 --> 00:03:20,524
+Reading the tip and the suggestion, 
+she decides to accept the second suggestion
+
+39
+00:03:20,524 --> 00:03:28,371
+“Predict accurate used car prices to ensure used car buyers do not overpay by comparing historical sale data and negotiation outcomes.”
+
+40
+00:03:28,371 --> 00:03:30,000
+and she continues.
+
+41
+00:03:30,000 --> 00:03:33,313
+Sarah proceeds to the question about ‘Domain Metrics’.
+
+42
+00:03:33,313 --> 00:03:40,039
+She is unfamiliar with the notion of ‘domain metrics’ 
+and initially lacks ideas about how to approach this question.
+
+43
+00:03:40,039 --> 00:03:42,987
+Sarah sees a tip for answering the question
+
+44
+00:03:42,987 --> 00:03:48,411
+“Focus on how you measure the 
+used car dealer’s decision-making performance in used car purchases.”
+
+45
+00:03:48,411 --> 00:03:52,922
+Hovering over the highlighted phrase “used car dealer’s decision making”
+
+46
+00:03:52,922 --> 00:03:57,964
+Sarah sees a reference to her previous answer for 
+‘Target User Groups & Demographics’.
+
+47
+00:03:57,964 --> 00:04:03,594
+Similarly, she hovers over “used car purchases” 
+to review her answer for ‘End Goal’.
+
+48
+00:04:03,594 --> 00:04:07,269
+She re-reads the question in the context of her previous answers.
+
+49
+00:04:07,269 --> 00:04:13,907
+After some thought, she decides to get concrete examples 
+by clicking on the expand button and sees the suggestions
+
+50
+00:04:13,907 --> 00:04:17,194
+“Cost to Market” and “Profit Margin.”
+
+51
+00:04:17,194 --> 00:04:21,894
+Through the examples, 
+Sarah understands how she should approach this problem.
+
+52
+00:04:21,894 --> 00:04:25,438
+Sarah decides to double-check her understanding through web search.
+
+53
+00:04:25,438 --> 00:04:29,840
+She finds the definition “custom metrics that are specific to your product”
+
+54
+00:04:29,840 --> 00:04:35,661
+and the importance of capturing user expectations and experience, 
+which confirms her understanding.
+
+55
+00:04:35,661 --> 00:04:40,532
+Knowing that maximizing profit margins is the 
+end goal of the target users
+
+56
+00:04:40,532 --> 00:04:48,078
+and since “price gap” aligns with the problem of overpayment, 
+she accepts the suggested answer, “Profit Margin,” and moves on.
+
+57
+00:04:48,078 --> 00:04:53,091
+To highlight the improvement of client experience, 
+let's look at the case of Rick
+
+58
+00:04:53,091 --> 00:04:56,965
+a used car dealership manager in the same situation as Sarah.
+
+59
+00:04:56,965 --> 00:05:03,314
+But instead of using PlanTogether, 
+he uses a web survey without personalized tips and suggestions.
+
+60
+00:05:03,314 --> 00:05:09,383
+Rick also makes it to the question about ‘Domain Metrics’, 
+unfamiliar with the notion of ‘domain metrics’.
+
+61
+00:05:09,383 --> 00:05:12,827
+He opens up a search engine and searches for “domain metric”
+
+62
+00:05:12,827 --> 00:05:19,106
+which eventually leads to the same definition that Sarah saw:
+ “custom metrics that are specific to your product”
+
+63
+00:05:19,106 --> 00:05:24,828
+However, Rick has difficulty linking the information and his situation 
+into a coherent answer
+
+64
+00:05:24,828 --> 00:05:28,195
+he wants to see some examples to get him started.
+
+65
+00:05:28,195 --> 00:05:34,413
+He searches for “domain metric examples” 
+and finds examples in domains such as marketing and education.
+
+66
+00:05:34,413 --> 00:05:40,023
+Still, because the problem of used car purchases is specific 
+and relatively uncommon
+
+67
+00:05:40,023 --> 00:05:45,000
+Rick finds it difficult to link his problem to the examples to formulate an answer.
+
+68
+00:05:45,000 --> 00:05:50,119
+Rick ends up putting in a lot of time and effort before arriving at an answer.
+
+69
+00:05:50,119 --> 00:05:54,130
+Now let’s take a look at how PlanTogether works.
+
+70
+00:05:54,130 --> 00:06:00,322
+PlanTogether represents information dependencies 
+within the pre-collaboration plan as a Planning Information Graph.
+
+71
+00:06:00,322 --> 00:06:08,774
+It uses this graph to extract and link relevant questions and information 
+to help the client clearly see and leverage connections between information.
+
+72
+00:06:08,774 --> 00:06:11,468
+Based on this Planning Information Graph
+
+73
+00:06:11,468 --> 00:06:17,708
+the guidance generator presents personalized tips and suggestions 
+for each node question and overview summaries.
+
+74
+00:06:17,708 --> 00:06:24,483
+Through a user study, we confirm that the tips and suggestions 
+as well as the progression overview included in PlanTogether
+
+75
+00:06:24,483 --> 00:06:30,444
+help clients navigate information dependencies 
+and write concrete actionable plans reflecting their domain expertise.
+
